@@ -10,7 +10,7 @@ function createWindow() {
             preload: path.join(app.getAppPath(), 'preload.js')
         }
     });
-    win.loadFile('index.html');
+    win.loadFile('renderer/index.html');
     return win.id;
 }
 
